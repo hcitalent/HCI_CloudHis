@@ -1,0 +1,23 @@
+.cards{
+    border: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.3125rem;
+}
+.cards .card-body {
+    padding: 2.5rem 2.5rem;
+    flex: 1 1 auto;
+}
+.cards .card-title{
+    color: #000;
+    margin-bottom: .75rem;
+    text-transform: capitalize;
+    font-family: "ubuntu-medium", sans-serif;
+    font-size: 1.125rem;
+}
